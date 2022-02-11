@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+
+  transition: all 0.1s ease-in; /*для плавних анімацій*/
+}
+
+.header {
+  background-color: #4a4f56;
+  padding: 19px 20px 12px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  /* display: flex; */
+  align-items: center;
+  color: #ff8984;
+  text-align: center;
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  /* display: flex; */
+  align-items: center;
+  color: #ff8984;
+  text-align: center;
+}
+
+.body {
+  background-color: #3b3f45;
+}
+
+.table_list {
+  padding: 20px 130px 45px;
+  /* margin: 0 auto; */
+}
+
+.list_item {
+  background-color: #7a7593;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  height: 45px;
+}
+
+.list_item:nth-child(odd) {
+  background-color: #88839e;
+}
+
+.list_item:hover {
+  border-top: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
+  background-color: #625e77;
+}
+
+.item_detail {
+  font-size: 11px;
+  line-height: 13px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin-left: 3px;
+}
+.checkbox {
+  margin: 12px;
+}
+
+.footer {
+  background-color: #4a4f56;
+  margin: 0 130px;
+  text-align: center;
+  padding: 12px;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 21px;
+  color: #ff8984;
+}
+
+.checkbox:checked + .item {
+  text-decoration: line-through;
+}
+
+.checkbox:checked ~ .item_detail {
+  text-decoration: line-through;
+}
