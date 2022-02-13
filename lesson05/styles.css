@@ -1,0 +1,94 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+}
+
+@font-face {
+  font-family: PTSans-Bold;
+  src: url(./PTSans-Bold.ttf);
+}
+
+header {
+  padding: 12px 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.lang {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.08em;
+  color: #ffffff;
+  box-sizing: border-box;
+  text-shadow: 1px 0 1px #000, 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
+  margin-right: 40px;
+}
+
+.doc {
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.logo {
+  /* float: right; */
+  display: block;
+}
+
+.main {
+  margin: 100px 45px;
+}
+
+.num {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-family: PTSans-Bold;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.text {
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  text-align: justify;
+  /* text-transform: uppercase; */
+}
+
+.code {
+  background-color: lightgrey;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* on lesson
+  @font-face {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  src: url("./Roboto-Regular.ttf") format("truetype"),
+    url("./Roboto-Black.ttf") format("truetype");
+}
+
+.span_1 {
+  font-family: Roboto;
+}
+
+.span_3 {
+  color: blue;
+}
+
+.div {
+  content: url(./cake-variant.svg);
+  color: yellow;
+} */
