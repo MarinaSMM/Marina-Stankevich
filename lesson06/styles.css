@@ -14,7 +14,7 @@
 
 .logo_nav {
   display: inline-block;
-  margin-right: 320px;
+  margin-right: 180px;
 }
 
 .list {
@@ -66,6 +66,7 @@
 .section_1 {
   padding: 0px 145px;
   margin-top: 113px;
+  display: flex;
 }
 
 .section_1_text {
